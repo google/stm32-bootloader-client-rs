@@ -1,0 +1,19 @@
+[package]
+name = "stm32-bootloader-client"
+version = "0.1.0"
+edition = "2021"
+license = "BSD-3-Clause"
+
+[dependencies]
+embedded-hal = "0.2.6"
+defmt = { version = "0.2.1", optional = true }
+log = { version = "0.4.14", optional = true }
+
+[dev-dependencies]
+anyhow = "1.0.38"
+embedded-hal-mock = "0.8.0"
+mcp2221 = "0.1.0"
+
+[features]
+default = ["std"]
+std = []
