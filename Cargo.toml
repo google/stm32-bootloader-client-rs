@@ -1,5 +1,7 @@
 [package]
 name = "stm32-bootloader-client"
+description = "A library for communicating with the STM32 system bootloader"
+repository = "https://github.com/google/stm32-bootloader-client-rs"
 version = "0.1.0"
 edition = "2021"
 license = "BSD-3-Clause"
